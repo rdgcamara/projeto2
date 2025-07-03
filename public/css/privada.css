@@ -1,0 +1,15 @@
+#carouselExampleIndicators{
+
+    height: 75%;
+    width: 75%;
+    border-style: solid;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.geral{
+
+    display: inline-flex;
+
+}

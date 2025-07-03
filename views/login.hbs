@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form method="POST" action="/login">
+      <h2>Login</h2>
+      {{#if erro}}<p class="erro">{{erro}}</p>{{/if}}
+      <input type="text" name="usuario" placeholder="Usuário" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+</html>
